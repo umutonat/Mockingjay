@@ -12,12 +12,12 @@ public struct Mockingjay {
      - returns: Provided type `T`
      Example
      ```
-     let users: Users? = try Mockingjay().mock()
+     let users: Users? = try Mockingjay.mock()
      ```
      - Author:  [Umut Onat Artuvan](https://github.com/umutonat)
      - Version: 1.0.0
      */
-    public func mock<T>() throws -> T? {
+    public static func mock<T>() throws -> T? {
         let info = try typeInfo(of: T.self)
         var instance = try createInstance(of: T.self) as! T
 
@@ -29,12 +29,7 @@ public struct Mockingjay {
         return instance
     }
 
-    private func cast<T>(value: Any, to type: T) -> T? {
-        return value as? T
-    }
-
-    private func mockValue(value: Any.Type) throws -> Any? {
-        print(value.self)
+    private static func mockValue(value: Any.Type) throws -> Any? {
         switch value.self {
         case is Int.Type:
             return Int.random(in: Int.min ... Int.max)

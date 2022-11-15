@@ -25,7 +25,7 @@ final class MockingjayTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        let mock: Cat? = try Mockingjay().mock()
+        let mock: Cat? = try Mockingjay.mock()
         XCTAssertNotNil(mock)
     }
 }
