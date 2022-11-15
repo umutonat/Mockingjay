@@ -1,6 +1,6 @@
 # Mockingjay
 
-![SPM](https://github.com/umutonat/Loadable/actions/workflows/swift.yml/badge.svg)
+![SPM](https://github.com/umutonat/Mockingjay/actions/workflows/swift.yml/badge.svg)
 
 Mockingjay simplifies creating mock objects in Swift.
 
