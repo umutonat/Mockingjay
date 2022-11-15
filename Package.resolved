@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "runtime",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/umutonat/Runtime",
+      "state" : {
+        "branch" : "master",
+        "revision" : "71cb3a3e812183cd4823ebe1b4edd3fdeb5f622c"
+      }
+    }
+  ],
+  "version" : 2
+}
