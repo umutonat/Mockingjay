@@ -3,10 +3,10 @@
     {
       "identity" : "runtime",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/umutonat/Runtime",
+      "location" : "https://github.com/wickwirew/Runtime",
       "state" : {
-        "branch" : "master",
-        "revision" : "71cb3a3e812183cd4823ebe1b4edd3fdeb5f622c"
+        "revision" : "dad03135d7701a4e7b3a4051e75d6b37bd8e178e",
+        "version" : "2.2.4"
       }
     }
   ],
